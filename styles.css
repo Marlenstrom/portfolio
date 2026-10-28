@@ -196,12 +196,22 @@ figcaption { max-width: 72ch; }
 
 .screen-showcase--hero { padding: clamp(28px, 6vw, 80px); }
 .screen-showcase--hero .screen-card-media { transform: rotate(-0.35deg); }
-.screen-showcase--hero .screen-card--flush .screen-card-media {
+.screen-showcase .screen-card--raw .screen-card-media {
   transform: none;
   border: 0;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+}
+.screen-showcase .screen-card--raw .screen-card-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: initial;
+  background: transparent;
+  transform: none;
 }
 .screen-showcase--portrait .screen-card { width: min(68%, 720px); justify-self: center; }
 
