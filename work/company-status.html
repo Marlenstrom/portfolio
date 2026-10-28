@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Hanken+Grotesk:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="../styles.css?v=1793218875">
+<link rel="stylesheet" href="../styles.css?v=1793219627">
 <script>
 try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 if (location.hostname === "localhost") {
@@ -20,11 +20,11 @@ if (location.hostname === "localhost") {
 <body>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="../index.html?v=1793219358"><img src="../img/about/logo.png" alt="" width="30" height="27"><span>Marlen Strøm Klaastad</span></a>
+    <a class="brand" href="../index.html?v=1793219631"><img src="../img/about/logo.png" alt="" width="30" height="27"><span>Marlen Strøm Klaastad</span></a>
     <nav aria-label="Main">
-      <a href="../index.html?v=1793219358#work">Work</a>
-      <a href="../about.html?v=1793219358">About</a>
-      <a href="../index.html?v=1793219358#contact">Contact</a>
+      <a href="../index.html?v=1793219631#work">Work</a>
+      <a href="../about.html?v=1793219631">About</a>
+      <a href="../index.html?v=1793219631#contact">Contact</a>
     </nav>
     <div class="header-tools">
       <button class="theme-toggle" type="button" data-to-dark="Switch to dark mode" data-to-light="Switch to light mode" aria-label="Switch to dark mode">
@@ -36,7 +36,7 @@ if (location.hostname === "localhost") {
 </header>
 <main class="project">
 <header class="project-head wrap">
-  <a class="back" href="../index.html?v=1793219358#work">← All work</a>
+  <a class="back" href="../index.html?v=1793219631#work">← All work</a>
   <h1>Company status</h1>
   <p class="kind">Metrics and guidance for HR and health and safety</p>
   <p class="meta">2025 · Product design · User research</p>
@@ -47,8 +47,9 @@ if (location.hostname === "localhost") {
 <div class="screen-showcase screen-showcase--duo"><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/cover.png?v=1793217100" alt="Company status brings the most important metrics together and connects the current situation with goals and progress." width="1502" height="1130" loading="lazy" decoding="async"></div><figcaption>Company status brings the most important metrics together and connects the current situation with goals and progress.</figcaption></figure><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/goal-setting.png?v=1793217100" alt="Selecting Set goal on the sickness absence card opens a focused goal-setting dialog." width="696" height="884" loading="lazy" decoding="async"></div><figcaption>Selecting Set goal on the sickness absence card opens a focused goal-setting dialog.</figcaption></figure></div>
 <div class="story"><div class="story-col"><h2>The problem</h2><p>Important metrics lived on an outdated index page built as a legacy monolith. The page had to be removed, but customers still depended on the information it contained. At the same time, the data was fragmented across several existing tools.</p></div><div class="story-col"><h2>The constraints</h2><p>We could not rebuild the underlying systems as part of this project. The first version had to use data and APIs already available, avoid manual input and detailed calculations, and still create a coherent experience while the legacy architecture was being phased out.</p></div></div>
 <div class="caption-block"><h2>Design principles</h2><p>Within those constraints, the cards were designed to give managers in small and medium-sized businesses a quick, understandable view of what might need attention. The principles helped us decide what to leave out as much as what to include.</p><ul><li>Give an overview, not a full analysis.</li><li>Support everyday management decisions, not reporting or deep exploration.</li><li>Use few choices and a clear hierarchy, so the information works without prior knowledge.</li><li>Create one useful experience for most small and medium-sized businesses, without extensive customisation.</li></ul></div>
-<div class="screen-showcase screen-showcase--hero"><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/old-dashboard.png?v=1793219343" alt="The old dashboard presented many statuses and actions at once, with little help to understand what mattered most." width="1642" height="1528" loading="lazy" decoding="async"></div><figcaption>The old dashboard presented many statuses and actions at once, with little help to understand what mattered most.</figcaption></figure></div>
+<div class="screen-showcase screen-showcase--hero"><figure class="screen-card screen-card--crop-dashboard"><div class="screen-card-media"><img src="../img/company-status/old-dashboard.png?v=1793219343" alt="The old dashboard presented many statuses and actions at once, with little help to understand what mattered most." width="1642" height="1528" loading="lazy" decoding="async"></div><figcaption>The old dashboard presented many statuses and actions at once, with little help to understand what mattered most.</figcaption></figure></div>
 <div class="caption-block"><h2>Starting with what customers need</h2><p>We asked customers which information was most useful to follow. Sickness absence and trends, incidents and measures were the clearest priorities. This gave us a focused starting point instead of rebuilding every metric from the old page.</p></div>
+<div class="screen-showcase screen-showcase--hero"><figure class="screen-card screen-card--crop-feedback"><div class="screen-card-media"><img src="../img/company-status/customer-feedback.png?v=1793219569" alt="An in-product Appcues prompt helped us learn which information customers found most useful to follow." width="1654" height="1452" loading="lazy" decoding="async"></div><figcaption>An in-product Appcues prompt helped us learn which information customers found most useful to follow.</figcaption></figure></div>
 <div class="caption-block"><h2>From information to action</h2><p>Each card shows the current status, change over time and the details that matter most. Users can switch to practical guidance, set a goal and follow progress without leaving the overview.</p><p>The same cards also appear on the home page, so users can scan the status quickly and open the full view when they need more detail.</p></div>
 <div class="screen-showcase screen-showcase--hero"><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/tips.png?v=1793217100" alt="Tips explain why a metric matters and suggest useful next steps." width="1502" height="1203" loading="lazy" decoding="async"></div><figcaption>Tips explain why a metric matters and suggest useful next steps.</figcaption></figure></div>
 <div class="screen-showcase screen-showcase--duo-reverse"><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/empty-state.png?v=1793217100" alt="Empty states help customers understand what they need to do before the dashboard can become useful." width="1502" height="1039" loading="lazy" decoding="async"></div><figcaption>Empty states help customers understand what they need to do before the dashboard can become useful.</figcaption></figure><figure class="screen-card"><div class="screen-card-media"><img src="../img/company-status/homepage.png?v=1793217100" alt="A compact version on the home page makes the status visible in the flow of everyday work." width="1442" height="2445" loading="lazy" decoding="async"></div><figcaption>A compact version on the home page makes the status visible in the flow of everyday work.</figcaption></figure></div>
@@ -56,7 +57,7 @@ if (location.hostname === "localhost") {
 <div class="caption-block"><h2>Next steps</h2><p>The strongest opportunity is to turn a useful overview into practical decision support—without adding back the complexity we removed.</p><ul><li>Clarify terms such as “Incidents” with better microcopy and context.</li><li>Make recommendations and next actions more specific to the current situation.</li><li>Explore links to related reports, small alerts and relevant integrations.</li></ul></div>
 </div>
 <nav class="next wrap" aria-label="Next project">
-  <a href="employment-contract.html?v=1793219358"><span class="eyebrow">Next project</span><span class="next-title">Employment contract</span></a>
+  <a href="employment-contract.html?v=1793219631"><span class="eyebrow">Next project</span><span class="next-title">Employment contract</span></a>
 </nav>
 </main>
 <footer class="site-footer" id="contact">

@@ -180,6 +180,20 @@ figcaption { max-width: 72ch; }
 .screen-card-media img { width: 100%; background: #fdfdfc; }
 .screen-card figcaption { padding: 14px 2px 0; }
 
+/* Crop only the empty canvas around exported screens; the source images stay untouched. */
+.screen-card--crop-dashboard .screen-card-media { aspect-ratio: 1.13 / 1; }
+.screen-card--crop-feedback .screen-card-media { aspect-ratio: 1.22 / 1; }
+.screen-card--crop-dashboard .screen-card-media,
+.screen-card--crop-feedback .screen-card-media { position: relative; }
+.screen-card--crop-dashboard .screen-card-media img,
+.screen-card--crop-feedback .screen-card-media img {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 147%;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+
 .screen-showcase--hero { padding: clamp(28px, 6vw, 80px); }
 .screen-showcase--hero .screen-card-media { transform: rotate(-0.35deg); }
 
