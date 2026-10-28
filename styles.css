@@ -196,6 +196,7 @@ figcaption { max-width: 72ch; }
 
 .screen-showcase--hero { padding: clamp(28px, 6vw, 80px); }
 .screen-showcase--hero .screen-card-media { transform: rotate(-0.35deg); }
+.screen-showcase--portrait .screen-card { width: min(68%, 720px); justify-self: center; }
 
 .screen-showcase--research { grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); align-items: start; }
 .screen-showcase--research .screen-card:nth-child(2) { margin-top: clamp(28px, 6vw, 72px); }
@@ -212,6 +213,7 @@ figcaption { max-width: 72ch; }
 @media (max-width: 760px) {
   .screen-showcase { padding: 20px; }
   .screen-showcase--research { grid-template-columns: 1fr; }
+  .screen-showcase--portrait .screen-card { width: 100%; }
   .screen-showcase--research .screen-card:nth-child(2) { margin-top: 0; }
   .screen-showcase--duo,
   .screen-showcase--duo-reverse { grid-template-columns: 1fr; }
